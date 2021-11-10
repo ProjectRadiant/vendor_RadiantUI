@@ -1,0 +1,16 @@
+android_library {
+
+    name: "RadiantUIPrebuilt",
+
+    optimize: {
+        enabled: false,
+    },
+
+    srcs: ["src/**/*.java",
+    "src/**/*.kt"],
+
+    resource_dirs: ["res"],
+
+    min_sdk_version: "31",
+
+}
